@@ -9,15 +9,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h3>Pandu Safrilio</h3>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
-        </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home container">
+        <div class="row d-flex align-items-center">
+            <div class="col-8">
+                <h3 class="fw-semibold">Hai! Kenalin Aku</h3>
+                <h1 class="fw-bold">Pandu Safrilio Fadhil</h1>
+                <p>Aku seorang Web Developer</p>
+                <a class="btn button" href="images/work-1.png" download=>Resume</a>
+            </div>
+            <div class="col-4">
+                <img src="images/potrait.png" alt="Fotoku" srcset="">
+            </div>
+        </div>
+        <div class="arrow mt-4 w-100 d-flex align-items-center flex-column">
+            <a href="#abbout" class="text-dark text-decoration-none">More</a>
+            <img class="mt-1" src="images/arrow.svg" alt="arrow">
+        </div>
+    </section>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
